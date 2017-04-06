@@ -1,0 +1,47 @@
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        targetNamespace="http://xmlns.oracle.com/singleString"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+ <complexType name="requestData">
+  <sequence>
+   <element name="requestNO" type="int" nillable="true"/>
+   <element name="requestStatus" type="string" nillable="true"/>
+   <element name="requestBy" type="string" nillable="true"/>
+   <element name="taskName" type="string" nillable="false"/>
+   <element name="taskDate" type="date" nillable="false"/>
+   <element name="taskType" type="string" nillable="false"/>
+   <element name="taskShortDesc" type="string" nillable="false"/>
+   <element name="requesterDept" type="string" nillable="true"/>
+   <element name="taskReviewer" type="string" nillable="false"/>
+   <element name="sponsorName" type="string" nillable="true"/>
+   <element name="sponsorMail" type="string" nillable="true"/>
+   <element name="sponsorMobile" type="string" nillable="true"/>
+   <element name="sponsorPhone" type="string" nillable="true"/>
+   <element name="projectName" type="string" nillable="true"/>
+   <element name="dueDate" type="date" nillable="true"/>
+   <element name="requestTo" type="string" nillable="true"/>
+   <element name="attributeS1" type="string" nillable="true"/>
+   <element name="attributeS2" type="string" nillable="true"/>
+   <element name="attributeS3" type="string" nillable="true"/>
+   <element name="attributeS4" type="string" nillable="true"/>
+   <element name="attributeS5" type="string" nillable="true"/>
+   <element name="attributeS6" type="string" nillable="true"/>
+   <element name="attributeS7" type="string" nillable="true"/>
+   <element name="attributeS8" type="string" nillable="true"/>
+   <element name="attributeS9" type="string" nillable="true"/>
+   <element name="attributeS10" type="string" nillable="true"/>
+   <element name="attributeI1" type="int" nillable="true"/>
+   <element name="attributeI2" type="int" nillable="true"/>
+   <element name="attributeI3" type="int" nillable="true"/>
+   <element name="attributeI4" type="int" nillable="true"/>
+   <element name="attributeI5" type="int" nillable="true"/>
+   <element name="attributeI6" type="int" nillable="true"/>
+   <element name="attributeI7" type="int" nillable="true"/>
+   <element name="attributeI8" type="int" nillable="true"/>
+   <element name="attributeI9" type="int" nillable="true"/>
+   <element name="attributeI10" type="int" nillable="true"/>
+   <element name="attributeD1" type="date" nillable="true"/>
+   <element name="attributeD2" type="date" nillable="true"/>
+   <element name="attributeD3" type="date" nillable="true"/>
+  </sequence>
+ </complexType>
+</schema>

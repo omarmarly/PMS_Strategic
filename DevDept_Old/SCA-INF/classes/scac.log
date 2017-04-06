@@ -1,0 +1,8 @@
+28/12/2015 08:47:26 Υ oracle.mds
+NOTIFICATION: Κγ Κίζνδ ΨΘΪΙ PManager ΘΟζδ ΟΪγ ΚΪΟΟ Ηαγήνγνδ ΝνΛ αγ νΚγ ΚΪννδ ΪαΗγΙ JVM "oracle.multitenant.enabled" Ϊαμ Κγίνδ ΟΪγ Ηαγήνγνδ ΗαγΚΪΟΟνδ.
+28/12/2015 08:47:27 Υ oracle.security.jps.internal.config.xml.XmlConfigurationFactory initDefaultConfiguration
+SEVERE: java.io.FileNotFoundException: .\config\jps-config.xml (The system cannot find the path specified)
+28/12/2015 08:47:27 Υ oracle.mds
+NOTIFICATION: Κγ ΚΪΨνα ΗαγΡΗΜΪΙ ααγίζδ MDS.
+28/12/2015 08:47:31 Υ oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.

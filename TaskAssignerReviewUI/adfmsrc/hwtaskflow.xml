@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<hwTaskFlows xmlns="http://xmlns.oracle.com/bpel/workflow/hwTaskFlowProperties">
+   <ApplicationName>worklist</ApplicationName>
+   <LookupType>LOCAL</LookupType>
+   <TaskFlowDeploy>false</TaskFlowDeploy>
+   <TaskFlowServer>
+      <hostName/>
+      <httpPort/>
+      <httpsPort/>
+   </TaskFlowServer>
+<hwTaskFlow><WorkflowName>TaskAssignerReview</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/DevelopmentDept/DevDept/TaskAssignerReview</TaskDefinitionNamespace><TaskFlowId>TaskAssignerReview_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/TaskAssignerReview_TaskFlow.xml</TaskFlowFileName></hwTaskFlow></hwTaskFlows>

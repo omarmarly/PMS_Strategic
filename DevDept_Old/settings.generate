@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TransferDescriptor xmlns="http://xmlns.oracle.com/jdeveloper/110000transfer-descriptor">
+   <value n="cascadeDelete" v="false"/>
+   <value n="dependencyDepth" v="0"/>
+   <value n="includeAllDependencies" v="false"/>
+   <value n="includeDependencies" v="false"/>
+   <value n="manualReconcile" v="false"/>
+   <value n="plusSqlScript" v="true"/>
+   <value n="policy" v="oracle.ideimpl.db.transfer.OnToOnPolicy"/>
+   <value n="reconcile" v="false"/>
+   <value n="replace" v="false"/>
+   <value n="schemaNames" v="false"/>
+   <list n="schemaObjectDescriptors">
+      <hash>
+         <value n="name" v="BPM_RESOURCE"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="TABLE"/>
+      </hash>
+      <hash>
+         <value n="name" v="LOOKUP_D"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="TABLE"/>
+      </hash>
+      <hash>
+         <value n="name" v="LOOKUP_M"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="TABLE"/>
+      </hash>
+      <hash>
+         <value n="name" v="PROJECT"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="TABLE"/>
+      </hash>
+      <hash>
+         <value n="name" v="PS_TXN"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="TABLE"/>
+      </hash>
+      <hash>
+         <value n="name" v="PS_TXN_SEQ"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="SEQUENCE"/>
+      </hash>
+      <hash>
+         <value n="name" v="TASK"/>
+         <value n="schemaName" v="BPM_INT"/>
+         <value n="type" v="TABLE"/>
+      </hash>
+   </list>
+   <value n="sourceConnectionStore" v="/D:/Projects/Momra_OMS/1/DevelopmentDept.jws"/>
+   <value n="sourceIdentifier" v="DevDeptConn"/>
+   <value n="spoolCommands" v="false"/>
+   <url n="sqlFile" path="../../../../Users/momar/PMS.sql"/>
+   <value n="sqlPlus" v="false"/>
+   <value n="targetConnectionStore" v="IdeConnections"/>
+   <value n="targetIdentifier" v="PMS_Dev_Database "/>
+   <hash n="targets">
+      <hash n="oracle.ideimpl.db.transfer.DDLTransferTarget"/>
+      <hash n="oracle.ideimpl.db.transfer.ProviderTransferTarget"/>
+   </hash>
+   <value n="targetSchemaName" v="PMS_OWNER"/>
+   <value n="targetTableSpace"/>
+</TransferDescriptor>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="sa.momra.applicationModule.model.AppModule">
+      <AppModuleConfig DeployPlatform="LOCAL" jbo.project="sa.momra.applicationModule.model.DevDeptModel" name="AppModuleLocal" ApplicationName="sa.momra.applicationModule.model.AppModule">
+         <AM-Pooling jbo.ampool.initpoolsize="10" jbo.ampool.maxavailablesize="250" jbo.ampool.minavailablesize="50"/>
+         <Database jbo.locking.mode="optimistic"/>
+         <Security AppModuleJndiName="sa.momra.applicationModule.model.AppModule"/>
+         <Custom JDBCDataSource="jdbc/PMS"/>
+      </AppModuleConfig>
+      <AppModuleConfig jbo.project="sa.momra.applicationModule.model.DevDeptModel" DeployPlatform="LOCAL" name="AppModuleShared" ApplicationName="sa.momra.applicationModule.model.AppModule">
+         <AM-Pooling jbo.ampool.initpoolsize="10" jbo.ampool.maxpoolsize="200" jbo.recyclethreshold="100" jbo.ampool.dynamicjdbccredentials="false" jbo.ampool.maxavailablesize="250" jbo.ampool.isuseexclusive="false" jbo.ampool.minavailablesize="20" jbo.ampool.resetnontransactionalstate="false"/>
+         <Database jbo.locking.mode="optimistic"/>
+         <Security AppModuleJndiName="sa.momra.applicationModule.model.AppModule"/>
+         <Custom JDBCDataSource="jdbc/PMS"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

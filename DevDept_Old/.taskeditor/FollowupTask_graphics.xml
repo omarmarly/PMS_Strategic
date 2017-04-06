@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<graphics>
+   <parameters_component expand="true"/>
+   <assignees_component expand="true"/>
+   <expiration_component expand="false"/>
+   <notification_component expand="false"/>
+   <advanced_component expand="false"/>
+   <annotations_component expand="false"/>
+   
+<resource_location location="file:/D:/Projects/Momra_OMS/1/DevDept/resources"/></graphics>

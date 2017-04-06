@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="LookupM"
+  Version="11.1.1.64.93"
+  InheritPersonalization="true"
+  DBObjectType="table"
+  DBObjectName="LOOKUP_M"
+  AliasName="LookupM"
+  BindingStyle="OracleName"
+  UseGlueCode="false">
+  <DesignTime>
+    <Attr Name="_codeGenFlag2" Value="Access"/>
+    <AttrArray Name="_publishEvents"/>
+  </DesignTime>
+  <Attribute
+    Name="LookupId"
+    IsNotNull="true"
+    Precision="4"
+    Scale="0"
+    ColumnName="LOOKUP_ID"
+    SQLType="NUMERIC"
+    Type="oracle.jbo.domain.Number"
+    ColumnType="NUMBER"
+    TableName="LOOKUP_M"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="5"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="LookupName"
+    Precision="250"
+    ColumnName="LOOKUP_NAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="LOOKUP_M">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="250"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="LookupNameEn"
+    Precision="250"
+    ColumnName="LOOKUP_NAME_EN"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="LOOKUP_M">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="250"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="LokkupDesc"
+    Precision="250"
+    ColumnName="LOKKUP_DESC"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="LOOKUP_M">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="250"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ActiveFlag"
+    Precision="1"
+    Scale="0"
+    ColumnName="ACTIVE_FLAG"
+    SQLType="NUMERIC"
+    Type="oracle.jbo.domain.Number"
+    ColumnType="NUMBER"
+    TableName="LOOKUP_M">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="2"/>
+    </DesignTime>
+  </Attribute>
+  <AccessorAttribute
+    Name="LookupD"
+    Association="sa.momra.applicationModule.Eo.LookupDR01Assoc"
+    AssociationEnd="sa.momra.applicationModule.Eo.LookupDR01Assoc.LookupD"
+    AssociationOtherEnd="sa.momra.applicationModule.Eo.LookupDR01Assoc.LookupM"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
+  <Key
+    Name="LookupMPk"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="LOOKUP_M_PK"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="sa.momra.applicationModule.Eo.LookupM.LookupId"/>
+    </AttrArray>
+  </Key>
+  <Key
+    Name="SysC0067931">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="SYS_C0067931"/>
+      <Attr Name="_checkCondition" Value='"LOOKUP_ID" IS NOT NULL'/>
+      <Attr Name="_isCheck" Value="true"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="sa.momra.applicationModule.Eo.LookupM.LookupId"/>
+    </AttrArray>
+  </Key>
+</Entity>

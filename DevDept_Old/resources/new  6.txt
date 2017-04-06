@@ -1,0 +1,9 @@
+#{adfBundle['oracle.iam.ui.custom.CustomResourceBundle'].CUSTOMRB_BANNER_TEXT}
+
+#{oimcontext.currentUser.roles['SYSTEM ADMINISTRATORS'] != null}
+
+#{oimcontext.currentUser.adminRoles['OrclOIMSystemAdministrator'] != null}
+
+#{oimcontext.currentUser['Last Name'] == 'Doe'}
+
+oracle.bpel.worklistapp.resource.WorklistResourceBundle

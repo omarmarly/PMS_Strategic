@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+<!---->
+<JboProject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="DevDeptModel"
+  Version="11.1.1.64.93"
+  SeparateXMLFiles="true"
+  PackageName="sa.momra.applicationModule.model">
+  <DesignTime>
+    <Attr Name="_jprName" Value="../../../../../DevDeptModel.jpr"/>
+    <Attr Name="_NamedConnection" Value="Connection1"/>
+    <Attr Name="_appModuleNames0"
+      Value="sa.momra.applicationModule.model.AppModule"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="Java"/>
+  </DesignTime>
+  <Containee
+    Name="Eo"
+    PackageName="sa.momra.applicationModule.Eo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_EO" Value="true"/>
+      <Attr Name="_AS" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="model"
+    PackageName="sa.momra.applicationModule.model"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="Vo"
+    PackageName="sa.momra.applicationModule.Vo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+      <Attr Name="_VL" Value="true"/>
+    </DesignTime>
+  </Containee>
+</JboProject>

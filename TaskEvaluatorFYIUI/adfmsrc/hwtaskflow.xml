@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<hwTaskFlows xmlns="http://xmlns.oracle.com/bpel/workflow/hwTaskFlowProperties">
+   <ApplicationName>worklist</ApplicationName>
+   <LookupType>LOCAL</LookupType>
+   <TaskFlowDeploy>false</TaskFlowDeploy>
+   <TaskFlowServer>
+      <hostName/>
+      <httpPort/>
+      <httpsPort/>
+   </TaskFlowServer>
+<hwTaskFlow><WorkflowName>EvaluatorFYI</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/DevelopmentDept/DevDept/EvaluatorFYI</TaskDefinitionNamespace><TaskFlowId>EvaluatorFYI_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/EvaluatorFYI_TaskFlow.xml</TaskFlowFileName></hwTaskFlow></hwTaskFlows>

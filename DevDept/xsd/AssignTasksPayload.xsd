@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<schema targetNamespace="http://xmlns.oracle.com/bpel/workflow/task" xmlns:tns="http://xmlns.oracle.com/bpel/workflow/task" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://xmlns.oracle.com/singleString">
+   <import namespace="http://xmlns.oracle.com/singleString" schemaLocation="TasksRequestData.xsd"/>
+   <import namespace="http://xmlns.oracle.com/singleString" schemaLocation="AssignTask.xsd"/>
+   <import namespace="http://xmlns.oracle.com/singleString" schemaLocation="FollowupTask.xsd"/>
+   <complexType name="AssignTasksPayloadType">
+      <sequence>
+         <element name="RequestTask" type="ns0:requestData"/>
+         <element name="AssignTasks" type="ns0:AssignTasks"/>
+         <element name="FollowupTask" type="ns0:FollowupTask"/>
+      </sequence>
+   </complexType>
+</schema>

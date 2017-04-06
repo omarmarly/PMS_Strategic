@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.64.93"
+          id="TaskFinalActionPayloadType"
+          Package="TaskFinalActionUI_TaskFinalAction"
+          BeanClass="TaskFinalActionUI_TaskFinalAction.TaskFinalActionPayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="RequestTask" IsCollection="true"
+                     BeanClass="TaskFinalActionUI_TaskFinalAction.requestData"
+                     CollectionBeanClass="TaskFinalActionUI_TaskFinalAction.requestData_RequestTask_Operations">
+    <Properties>
+      <Property Name="nextSiblingNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+      <Property Name="nextSibling" Value="AssignTasks"/>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Request Task"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="RequestTask"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+    </Properties>
+  </AccessorAttribute>
+  <AccessorAttribute id="AssignTasks" IsCollection="true"
+                     BeanClass="TaskFinalActionUI_TaskFinalAction.AssignTasks"
+                     CollectionBeanClass="TaskFinalActionUI_TaskFinalAction.AssignTasks_AssignTasks_Operations">
+    <Properties>
+      <Property Name="nextSiblingNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+      <Property Name="nextSibling" Value="FollowupTask"/>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Assign Tasks"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="AssignTasks"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+    </Properties>
+  </AccessorAttribute>
+  <AccessorAttribute id="FollowupTask" IsCollection="true"
+                     BeanClass="TaskFinalActionUI_TaskFinalAction.FollowupTask"
+                     CollectionBeanClass="TaskFinalActionUI_TaskFinalAction.FollowupTask_FollowupTask_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Followup Task"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="FollowupTask"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

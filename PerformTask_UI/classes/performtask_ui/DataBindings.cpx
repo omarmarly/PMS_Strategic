@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="performtask_ui" ClientType="Generic">
+  <pageMap>
+    <page path="/PerformTask_Form.jspx"
+          usageId="performtask_ui_PerformTask_FormPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="performtask_ui_PerformTask_FormPageDef"
+          path="performtask_ui.pageDefs.PerformTask_FormPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="PerformTask_UI_PerformTask"
+        path="performtask_ui.PerformTask_UI_PerformTask"/>
+    <BC4JDataControl id="AppModuleDataControl"
+                     Package="sa.momra.applicationModule.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl"
+                     SupportsTransactions="true" SupportsFindMode="true"
+                     SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true"
+                     Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

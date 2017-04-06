@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="taskevaluatorfyiui" ClientType="Generic">
+  <pageMap>
+    <page path="/EvaluatorFYI_Form.jspx"
+          usageId="taskevaluatorfyiui_EvaluatorFYI_FormPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="taskevaluatorfyiui_EvaluatorFYI_FormPageDef"
+          path="taskevaluatorfyiui.pageDefs.EvaluatorFYI_FormPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="TaskEvaluatorFYIUI_EvaluatorFYI"
+        path="taskevaluatorfyiui.TaskEvaluatorFYIUI_EvaluatorFYI"/>
+    <BC4JDataControl id="AppModuleDataControl"
+                     Package="sa.momra.applicationModule.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl"
+                     SupportsTransactions="true" SupportsFindMode="true"
+                     SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true"
+                     Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

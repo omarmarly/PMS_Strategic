@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="teammembersfollowuptaskui" ClientType="Generic">
+  <pageMap>
+    <page path="/FollowupTask_Form.jspx"
+          usageId="teammembersfollowuptaskui_FollowupTask_FormPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="teammembersfollowuptaskui_FollowupTask_FormPageDef"
+          path="teammembersfollowuptaskui.pageDefs.FollowupTask_FormPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="AssignTaskUI_AssignTasks"
+        path="assigntaskui.AssignTaskUI_AssignTasks"/>
+    <dc id="TeamMembersFollowupTaskUI_FollowupTask"
+        path="teammembersfollowuptaskui.TeamMembersFollowupTaskUI_FollowupTask"/>
+    <BC4JDataControl id="AppModuleDataControl"
+                     Package="sa.momra.applicationModule.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl"
+                     SupportsTransactions="true" SupportsFindMode="true"
+                     SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true"
+                     Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

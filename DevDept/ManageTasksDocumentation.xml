@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.7.0.2.22" fileRevision="20120217"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+    <component name="ManageTasks">
+        <topicDocumentations>
+            <topicDocumentation name="ManageTasks">
+                <labels>
+                    <label locale="ar">إدارة المهام</label>
+                    <label locale="en">ManageTasks</label>
+                </labels>
+                <descriptions>
+                    <description locale="ar">إدارة المهام</description>
+                    <description locale="en">ManageTasks</description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT12681675496474">
+                <labels>
+                    <label locale="en">InitiateNewTask</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT12681716468145">
+                <labels>
+                    <label locale="en">Assign Task</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT12681723276017">
+                <labels>
+                    <label locale="en">Followup Task</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT12681731360326">
+                <labels>
+                    <label locale="en">Task Assigner Review</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT12681848610564">
+                <labels>
+                    <label locale="en">Manage Task</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT1508288108180">
+                <labels>
+                    <label locale="en">Subprocess</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT15082886902994">
+                <labels>
+                    <label locale="en">Task Evaluator</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT15082887846976">
+                <labels>
+                    <label locale="en">ConsultantAction</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EVT1508288119288">
+                <labels>
+                    <label locale="en">Start Evaluation</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="EVT15082881192834">
+                <labels>
+                    <label locale="en">End Evaluation</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="GTW15082882590838">
+                <labels>
+                    <label locale="en">Evaluation Type</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW15082885571977">
+                <labels>
+                    <label locale="en">Evaluation Action</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf123"/>
+            <topicDocumentation name="sf124">
+                <labels>
+                    <label locale="en">No Evaluation</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf125"/>
+            <topicDocumentation name="sf128">
+                <labels>
+                    <label locale="en">FYI</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf130">
+                <labels>
+                    <label locale="en">Action</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf133"/>
+            <topicDocumentation name="sf135"/>
+            <topicDocumentation name="EVT12681675496444">
+                <labels>
+                    <label locale="en">Start</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="EVT12681675496411">
+                <labels>
+                    <label locale="en">End</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="GTW12681734809165">
+                <labels>
+                    <label locale="en">Task Review Action</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW12681851511741">
+                <labels>
+                    <label locale="en">Manager Action</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW12793137327368">
+                <labels>
+                    <label locale="en">Assign Type</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW15082555944224">
+                <labels>
+                    <label locale="en">AssignType</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW1508258374596">
+                <labels>
+                    <label locale="en">Evaluatuion &amp; AssignType</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf38"/>
+            <topicDocumentation name="sf39"/>
+            <topicDocumentation name="sf41"/>
+            <topicDocumentation name="sf42">
+                <labels>
+                    <label locale="en"></label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf49"/>
+            <topicDocumentation name="sf57"/>
+            <topicDocumentation name="sf59">
+                <labels>
+                    <label locale="en">Approve</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf61">
+                <labels>
+                    <label locale="en">Rejected</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf22">
+                <labels>
+                    <label locale="en">Direct Assign New or Rejected</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf27">
+                <labels>
+                    <label locale="en">Team Assign</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf91">
+                <labels>
+                    <label locale="en">Team Assign</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf95">
+                <labels>
+                    <label locale="en">Reject</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf103">
+                <labels>
+                    <label locale="en">Direct Assign Approved or Team Assign Approved</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf137">
+                <labels>
+                    <label locale="en">Start Direct Assign Evaluation</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf143">
+                <labels>
+                    <label locale="en">After Evaluation</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf146">
+                <labels>
+                    <label locale="en">Start Evaluation</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf150">
+                <labels>
+                    <label locale="en">Direct Assign Approved or Team Assign  Rejected</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+        </topicDocumentations>
+    </component>
+</processDocumentation>

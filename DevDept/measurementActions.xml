@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Actions xmlns="http://xmlns.oracle.com/bpm/analytics/measurement">
+    <compositeDN>DevDept</compositeDN>
+    <action name="BAMCommand" enabled="true">
+        <interfaceName>oracle.bpm.analytics.bam.action.BAMActionMDB</interfaceName>
+        <properties>
+            <property name="BAMAdapterJNDIName">eis/bam/soap</property>
+            <property name="InBatch">false</property>
+            <property name="CachedConnections">false</property>
+            <property name="DataObjectPath">/Dev/Tasks</property>
+            <property name="BAMDeploymentUseHTTPS">false</property>
+        </properties>
+        <measurementElementName>DevDept</measurementElementName>
+        <measurementElementName>Measurement</measurementElementName>
+        <measurementElementName>Measurement1</measurementElementName>
+    </action>
+    <action name="CubeCommand" enabled="true">
+        <interfaceName>oracle.bpm.analytics.cube.action.CubeActionMDB</interfaceName>
+        <properties/>
+        <measurementElementName>DevDept</measurementElementName>
+        <measurementElementName>Measurement</measurementElementName>
+        <measurementElementName>Measurement1</measurementElementName>
+    </action>
+</Actions>

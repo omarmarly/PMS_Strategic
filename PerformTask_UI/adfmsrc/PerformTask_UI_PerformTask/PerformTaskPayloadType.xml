@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.64.93"
+          id="PerformTaskPayloadType" Package="PerformTask_UI_PerformTask"
+          BeanClass="PerformTask_UI_PerformTask.PerformTaskPayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="RequestTask" IsCollection="true"
+                     BeanClass="PerformTask_UI_PerformTask.requestData"
+                     CollectionBeanClass="PerformTask_UI_PerformTask.requestData_RequestTask_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Request Task"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="RequestTask"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpel/workflow/task"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

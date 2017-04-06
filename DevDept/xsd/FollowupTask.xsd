@@ -1,0 +1,25 @@
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        targetNamespace="http://xmlns.oracle.com/singleString"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+ <complexType name="FollowupTask">
+  <sequence>
+   <element name="taskStatus" type="int" nillable="false"/>
+   <element name="note" type="string" nillable="false"/>
+   <element name="pendingIssue" type="string" nillable="false"/>
+   <element name="FinishDate" type="date" nillable="false"/>
+   <element name="attributeS1" type="string" nillable="true"/>
+   <element name="attributeS2" type="string" nillable="true"/>
+   <element name="attributeS3" type="string" nillable="true"/>
+   <element name="attributeS4" type="string" nillable="true"/>
+   <element name="attributeS5" type="string" nillable="true"/>
+   <element name="attributeI1" type="int" nillable="true"/>
+   <element name="attributeI2" type="int" nillable="true"/>
+   <element name="attributeI3" type="int" nillable="true"/>
+   <element name="attributeI4" type="int" nillable="true"/>
+   <element name="attributeI5" type="int" nillable="true"/>
+   <element name="attributeD1" type="date" nillable="true"/>
+   <element name="attributeD2" type="date" nillable="true"/>
+   <element name="attributeD3" type="date" nillable="true"/>
+  </sequence>
+ </complexType>
+</schema>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="AppModule"
+  Version="11.1.1.64.93"
+  InheritPersonalization="true"
+  ClearCacheOnRollback="true">
+  <DesignTime>
+    <Attr Name="_deployType" Value="0"/>
+  </DesignTime>
+  <ViewUsage
+    Name="LookupDView1"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView">
+    <ViewCriteriaUsage
+      Name="LookupDViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.LookupDView.LookupDViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="LookupPK">
+        <TransientExpression><![CDATA[3]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="TaskView1"
+    ViewObjectName="sa.momra.applicationModule.Vo.TaskView"/>
+  <ViewUsage
+    Name="BpmResourceView1"
+    ViewObjectName="sa.momra.applicationModule.Vo.BpmResourceView">
+    <ViewCriteriaUsage
+      Name="BpmResourceViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.BpmResourceView.BpmResourceViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="TeamMemberPt">
+        <TransientExpression><![CDATA[1]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="LookupDView3"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView">
+    <ViewCriteriaUsage
+      Name="LookupDViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.LookupDView.LookupDViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="LookupPK">
+        <TransientExpression><![CDATA[1]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="LookupDView4"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView"/>
+  <ViewUsage
+    Name="LookupDView5"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView">
+    <ViewCriteriaUsage
+      Name="LookupDViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.LookupDView.LookupDViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="LookupPK">
+        <TransientExpression><![CDATA[2]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="LookupDView6"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView">
+    <ViewCriteriaUsage
+      Name="LookupDViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.LookupDView.LookupDViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="LookupPK">
+        <TransientExpression><![CDATA[4]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="LookupDView7"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView">
+    <ViewCriteriaUsage
+      Name="LookupDViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.LookupDView.LookupDViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="LookupPK">
+        <TransientExpression><![CDATA[6]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="BpmResourceReview"
+    ViewObjectName="sa.momra.applicationModule.Vo.BpmResourceView">
+    <ViewCriteriaUsage
+      Name="BpmResourceViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.BpmResourceView.BpmResourceViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="ReviewPr">
+        <TransientExpression><![CDATA[1]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="BpmResourceTeamLeader"
+    ViewObjectName="sa.momra.applicationModule.Vo.BpmResourceView">
+    <ViewCriteriaUsage
+      Name="BpmResourceViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.BpmResourceView.BpmResourceViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="TeamLeaderPr">
+        <TransientExpression><![CDATA[1]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewUsage
+    Name="LookupDViewLov"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView"/>
+  <ViewUsage
+    Name="LookupMView1"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupMView"/>
+  <ViewUsage
+    Name="LookupDView2"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView"/>
+  <ViewUsage
+    Name="LookupDView8"
+    ViewObjectName="sa.momra.applicationModule.Vo.LookupDView">
+    <ViewCriteriaUsage
+      Name="LookupDViewCriteria"
+      FullName="sa.momra.applicationModule.Vo.LookupDView.LookupDViewCriteria"/>
+    <ParameterMap>
+      <PIMap Variable="LookupPK">
+        <TransientExpression><![CDATA[7]]></TransientExpression>
+      </PIMap>
+    </ParameterMap>
+  </ViewUsage>
+  <ViewLinkUsage
+    Name="LookupDR01Link1"
+    ViewLinkObjectName="sa.momra.applicationModule.Vo.LookupDR01Link"
+    SrcViewUsageName="sa.momra.applicationModule.model.AppModule.LookupMView1"
+    DstViewUsageName="sa.momra.applicationModule.model.AppModule.LookupDView2"
+    Reversed="false"/>
+</AppModule>
